@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up-Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <img class="leaf" src="Images/Sign-Up-Page Photo.avif" alt="Leaf Background">
+        <div class="odin-container">
+            <img class="odin" src="Images/odin logo.png" alt="Odin Logo">
+            <div class="odin-text">ODIN</div>
+        </div>
+    </div>
+    <div class="big-container">
+        <div class="upper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate nobis aspernatur aliquid et maxime neque illo autem quisquam tempora.</div>
+        <div class="form-container">
+            <div class="form-title">Let's Do This!</div>
+            <form action="example.com/path" method="post">
+                <div class="inputs">
+                    <div class="first input">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name">
+                    </div>
+                    <div class="last input">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="mail input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="odin@gmail.com">
+                    </div>
+                    <div class="phone input">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" id="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-456-7891">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="pass input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="confirm input">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="button-container"><button>Create Account</button></div>
+        <div class="login">
+            <span class="login-question">Already have an account?</span>
+            <span class="log">Log In</span>
+        </div>
+    </div>
+</body>
+</html>
